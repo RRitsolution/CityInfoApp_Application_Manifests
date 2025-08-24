@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City Info - {{ city }}</title>
+</head>
+<body>
+    <h1>City: {{ city }}</h1>
+    <p><strong>Temperature:</strong> {{ temperature }}</p>
+    <p><strong>Famous Places:</strong></p>
+    <ul>
+        {% for place in places %}
+            <li>{{ place }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Search Another City</a>
+</body>
+</html>
+
