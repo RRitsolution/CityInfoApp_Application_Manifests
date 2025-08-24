@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: cityinfo
-        image: nirmaldocker1987/cityinfoapp:${BUILD_NUMBER}
+        image: nirmaldocker1987/cityinfoapp:replaceImageTag
         ports:
         - containerPort: 5000
         envFrom:
