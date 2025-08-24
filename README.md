@@ -123,3 +123,6 @@ CD (ArgoCD):
 Syncs Kubernetes manifests from GitHub
 
 Automatically ensures latest deployment
+
+<img width="747" height="298" alt="image" src="https://github.com/user-attachments/assets/0fd0cbc3-3213-433d-8a55-21db386cd43c" />
+
