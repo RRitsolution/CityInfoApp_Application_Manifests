@@ -12,7 +12,7 @@ pipeline {
     stage('Build and Push Docker Image') {
       environment {
         DOCKER_IMAGE = "nirmaldocker1987/cityinfoapp:${BUILD_NUMBER}"
-        // DOCKERFILE_LOCATION = "$WORKSPACE/Dockerfile"
+        DOCKERFILE_LOCATION = "$WORKSPACE/Dockerfile"
         REGISTRY_CREDENTIALS = credentials('docker-cred')
       }
       steps {
